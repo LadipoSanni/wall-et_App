@@ -1,4 +1,4 @@
-package com.ladiakinson.e_wallet.model.common.data;
+package com.ladiakinson.e_wallet.model.common;
 
 import com.ladiakinson.e_wallet.model.common.enums.TransactionType;
 import lombok.AllArgsConstructor;

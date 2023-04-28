@@ -1,6 +1,5 @@
 package com.ladiakinson.e_wallet.model.common;
 
-import com.ladiakinson.e_wallet.model.common.data.TransactionHistory;
 import com.ladiakinson.e_wallet.model.common.enums.AccountType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
