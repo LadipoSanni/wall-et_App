@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.annotation.Id;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
 @Builder
 @Data
 public class Account {
+    @Id
     private String id;
     private String userId;
     private  String pin;
@@ -20,6 +22,7 @@ public class Account {
     private String accountName;
     private String bankName;
     private String phoneNumber;
+    private String email;
     private Address address;
     private String bvn;
     private AccountType accountType;
