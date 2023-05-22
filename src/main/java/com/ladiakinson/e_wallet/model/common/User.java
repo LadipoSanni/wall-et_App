@@ -17,6 +17,7 @@ import java.io.Serializable;
 @JsonIgnoreProperties({"password", "passwordResetToken"})
 public class User implements Serializable {
     @Id
+    private String id;
     private String userId;
     private String firstName;
     private String surname;

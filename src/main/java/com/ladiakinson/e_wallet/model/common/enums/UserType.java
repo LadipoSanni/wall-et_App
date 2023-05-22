@@ -1,4 +1,4 @@
-package com.ladiakinson.e_wallet.model.common.actors;
+package com.ladiakinson.e_wallet.model.common.enums;
 
 public enum UserType {
     ACCOUNT_HOLDER,

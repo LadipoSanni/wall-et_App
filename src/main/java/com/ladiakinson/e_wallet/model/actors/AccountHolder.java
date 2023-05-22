@@ -1,6 +1,7 @@
-package com.ladiakinson.e_wallet.model.common;
+package com.ladiakinson.e_wallet.model.actors;
 
-import com.ladiakinson.e_wallet.model.common.actors.UserType;
+import com.ladiakinson.e_wallet.model.common.Address;
+import com.ladiakinson.e_wallet.model.common.enums.UserType;
 import com.ladiakinson.e_wallet.model.common.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
